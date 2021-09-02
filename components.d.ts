@@ -3,13 +3,11 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    HelloWorld: typeof import('C:/Web Projects/template-vue/src/components/HelloWorld.vue')['default']
-    'IFileIcons:windi': typeof import('~icons/file-icons/windi')['default']
-    'IIon:imagesSharp': typeof import('~icons/ion/images-sharp')['default']
-    'IMdi:bookOpenPageVariant': typeof import('~icons/mdi/book-open-page-variant')['default']
-    'INoto:pineapple': typeof import('~icons/noto/pineapple')['default']
-    'IVscodeIcons:fileTypeTypescriptOfficial': typeof import('~icons/vscode-icons/file-type-typescript-official')['default']
-    'IVscodeIcons:fileTypeVite': typeof import('~icons/vscode-icons/file-type-vite')['default']
+    ICarbonMoon: typeof import('~icons/carbon/moon')['default']
+    ICarbonSun: typeof import('~icons/carbon/sun')['default']
+    'IMdi:close': typeof import('~icons/mdi/close')['default']
+    'IMdi:windowMaximize': typeof import('~icons/mdi/window-maximize')['default']
+    'IMdi:windowMinimize': typeof import('~icons/mdi/window-minimize')['default']
   }
 }
 

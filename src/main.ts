@@ -5,6 +5,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import routes from "virtual:generated-pages";
 import { createPinia } from "pinia";
 
+
+import "virtual:windi.css";
+
 const router = createRouter({
   history: createWebHistory(),
   routes,  
