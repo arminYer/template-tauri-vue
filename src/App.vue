@@ -3,7 +3,6 @@
     bg="white opacity-60"
     dark:bg="dark-700 opacity-60"
     h="full"
-    filter="grayscale blur-md contrast-200"
   >
     <div
       data-tauri-drag-region
@@ -83,7 +82,6 @@ html, body {
 }
 .titlebar {
   height: 30px;
-  /* background: #329ea3; */
   user-select: none;
   display: flex;
   justify-content: flex-end;
